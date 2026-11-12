@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Раднички Рецепти</string>
+    <string name="action_logout">Излогујте се</string>
+
+    <string name="page_create_user">Направите свој налог</string>
+    <string name="create_user_username">Корисничко име:</string>
+    <string name="create_user_email">Имејл адреса:</string>
+    <string name="create_user_password">Шифра:</string>
+    <string name="invalid_password">Неисправна лозинка</string>
+    <string name="username_too_short">Корисничко име је прекратко!</string>
+    <string name="username_invalid_chars">Корисничко име сме да садржи само слова, бројеве и доње црте!</string>
+    <string name="email_invalid">Неисправна имејл адреса!</string>
+    <string name="create_user_repeat_password">Поновите шифру:</string>
+        <string name="password_too_short">Шифра је прекратка!</string>
+    <string name="password_mismatch">Унете шифре се разликују!</string>
+    <string name="create_user_button">Региструјте се</string>
+    <string name="username_taken">Корисничко име је већ заузето!</string>
+    <string name="page_main">Главна страна</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Radnicki Recepti</string>
+    <string name="action_logout">Log out</string>
+
+
+    <!-- Account creation labels -->
+    <string name="page_create_user">Create Your Account</string>
+    <string name="create_user_username">Username:</string>
+    <string name="create_user_email">E-mail Address:</string>
+    <string name="create_user_password">Password:</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="username_too_short">Username too short!</string>
+    <string name="username_invalid_chars">Username may contain only alphanumeric characters and underscores (ABC123abc_)</string>
+    <string name="email_invalid">Invalid email address!</string>
+    <string name="create_user_repeat_password">Repeat password:</string>
+    <string name="password_too_short">Password too short!</string>
+    <string name="password_mismatch">Entered passwords don\'t match!</string>
+    <string name="create_user_button">Register</string>
+    <string name="username_taken">Username already taken!</string>
+    <string name="page_main">Main Page</string>
+</resources>

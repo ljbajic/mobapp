@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/CreateUser">
+
+    <fragment
+        android:id="@+id/CreateUser"
+        android:name="rs.ac.uns.ftn.radnickirecepti.ui.user_creation.CreateUserFragment"
+        android:label="@string/page_create_user"
+        tools:layout="@layout/fragment_create_user">
+        <action
+            android:id="@+id/action_CreateUser_to_MainPage"
+            app:destination="@id/MainPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/MainPage"
+        android:name="rs.ac.uns.ftn.radnickirecepti.ui.main_page.MainPageFragment"
+        android:label="@string/page_main"
+        tools:layout="@layout/fragment_main_page"/>
+</navigation>
